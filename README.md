@@ -18,10 +18,10 @@ Built as part of my cloud security engineering portfolio.
 
 Running this tool against my own lab account returned 5 findings:
 
-- **2x HIGH** — IAM users with no MFA configured
-- **1x CRITICAL** — S3 bucket with Block Public Access disabled
-- **1x HIGH** — Security group with SSH open to the internet (0.0.0.0/0)
-- **1x CRITICAL** — No CloudTrail trail active in the region
+- **2x HIGH** - IAM users with no MFA configured
+- **1x CRITICAL** - S3 bucket with Block Public Access disabled
+- **1x HIGH** - Security group with SSH open to the internet (0.0.0.0/0)
+- **1x CRITICAL** - No CloudTrail trail active in the region
 
 These were intentionally created misconfigurations used to validate 
 the tool's detection accuracy.
@@ -77,4 +77,4 @@ needed are:
 
 ## Tech used
 
-Python · boto3 · AWS IAM · S3 · EC2 · CloudTrail · CIS Benchmarks
+Python - boto3 - AWS IAM - S3 - EC2 - CloudTrail - CIS Benchmarks
