@@ -26,9 +26,15 @@ Running this tool against my own lab account returned 5 findings:
 These were intentionally created misconfigurations used to validate 
 the tool's detection accuracy.
 
-## Sample report output
+## Report output
 
-[Add a screenshot of your report.html here]
+![HTML Report](report-findings-screenshot.png)
+
+## Terminal output
+
+![Terminal findings](terminal-findings-output-1.png)
+
+![Terminal findings](terminal-findings-output-2.png)
 
 ## How to run it
 
